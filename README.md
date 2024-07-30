@@ -16,12 +16,13 @@ This project provides an SMS service using Python, Flask, Twilio, Ngrok, and the
 In today's fast-paced world, communication is key. This project leverages SMS, one of the most ubiquitous forms of communication, to provide a chat service that responds to user queries using the power of AI. By integrating the ChatGPT API, this service can understand and generate human-like text responses, making it an effective tool for various applications, such as customer support, information dissemination, and more.
 
 ## Technologies Used
-Python: The programming language used for developing the server-side application.
-Flask: A lightweight WSGI web application framework used for handling HTTP requests and responses.
-Twilio: A cloud communications platform used to send and receive SMS messages.
-Ngrok: A tool that exposes local servers to the internet, used here to make the local Flask server accessible remotely for testing.
-ChatGPT API: An API provided by OpenAI to generate AI-powered responses to user queries.
-Project Structure
+1. Python: The programming language used for developing the server-side application.
+2. Flask: A lightweight WSGI web application framework used for handling HTTP requests and responses.
+3. Twilio: A cloud communications platform used to send and receive SMS messages.
+4. Ngrok: A tool that exposes local servers to the internet, used here to make the local Flask server accessible remotely for testing.
+5. ChatGPT API: An API provided by OpenAI to generate AI-powered responses to user queries.
+   
+## Project Structure
 The project consists of a Flask application that interacts with the Twilio API to send and receive SMS messages. Incoming SMS messages are processed by the Flask server, which then uses the ChatGPT API to generate a response. The response is sent back to the user via Twilio.
 
 ## Features
